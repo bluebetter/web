@@ -1,0 +1,15 @@
+h1 {
+    color:red;
+    color: rgb(100, 200, 300);
+    font-size: 24px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/

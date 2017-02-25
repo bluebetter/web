@@ -135,6 +135,7 @@ class View
         if (!empty($replace)) {
             $content = strtr($content, $replace);
         }
+//dump($content);
         return $content;
     }
 
