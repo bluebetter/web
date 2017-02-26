@@ -1,9 +1,16 @@
 $(document).ready(function(){
   var playlist = [
     {
+      title:"想说的话",
+      artist:"lxf",
+      mp3:"/frontend/resource/bg/wanttosay.m4a",
+      //oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
+      //poster: "http://33.media.tumblr.com/0b35eb42176eedbf4a96e52efa760875/tumblr_mxp7a0v3fr1rqx86wo1_500.png"
+    },
+    {
       title:"爱很简单",
       artist:"lxf",
-      mp3:"/frontend/resource/bg/song.mp3",
+      mp3:"/frontend/resource/bg/piano.m4a",
       //oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
       //poster: "http://33.media.tumblr.com/0b35eb42176eedbf4a96e52efa760875/tumblr_mxp7a0v3fr1rqx86wo1_500.png"
     }
