@@ -69,9 +69,10 @@ function() {
     this.play(function() { //歌曲播放
     });
 };
-$$$$(document).ready(function() {
-    if (/i(Phone|P(o|a)d)/.test(navigator.userAgent)) {
-        $$$$(document).one('touchstart',
+$(document).ready(function() {
+    //if (/i(Phone|P(o|a)d)/.test(navigator.userAgent)) {
+    if (true) {
+        $(document).one('touchstart',
         function(e) {
             g_audio.touchstart = true;
             g_audio.play();
@@ -80,15 +81,17 @@ $$$$(document).ready(function() {
         });
     }
 });
-audio使用: $$$$("#main").unbind("click").bind("click",
+//audio使用: 
+$("#main").unbind("click").bind("click",
 function() {
     //gid 表示歌曲id,只是一个表示，没有值不影响播放
     //song_fileUrl :播放歌曲地址，不能为空，有效地址
-    gid = 1
+    gid = 1;
     songUrl = './song.mp3';
     g_audio.elems["id"] = gid;
     g_audio.push({
         song_id: gid,
         song_fileUrl: songUrl
     });
+    alert('a');
 }); //绑定事件

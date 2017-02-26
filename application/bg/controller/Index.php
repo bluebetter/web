@@ -8,10 +8,14 @@ class Index extends Controller{
     }
 
     public function letter() {
-        return $this->fetch();
+        return $this->fetch('letter');
     }
 
     public function touch() {
+        return $this->fetch();
+    }
+
+    public function music() {
         return $this->fetch();
     }
 }
