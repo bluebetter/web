@@ -8,14 +8,14 @@ var story = [
 	+'<p>我还不能死</p>'
 	+'<p>太多“债”要还了</p>'
 	+'<p>想不清楚该做什么、怎么做的时候</p>'
-	+'<p>Follow The Heart，Try Best Not To Touble The Others。</p>',
+	+'<p>Follow The Heart，Try Best Not To Touble The Others。</p>'
     +'</div>',
 
     '<div><h2 class="title">'
     +'歌曲'+'</h2>'
     +'<p>《Feeling Good》	Avicli</p>'
     +'<p>《You\'re Beautiful》	James Blunt</p>'
-    +'<p>《把悲伤留给自己》	蔡琴（陈升被和谐了）</p>',
+    +'<p>《把悲伤留给自己》	蔡琴（陈升被和谐了）</p>'
     +'</div>',
 
     '<div><h2 class="title">'
