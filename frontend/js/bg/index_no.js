@@ -1,5 +1,10 @@
 var story = [
     '<div><h2 class="title">'
+    +'Just Happy'+'</h2>'
+    +'<p>节日快乐!</p>'
+    +'</div>',
+
+    '<div><h2 class="title">'
     +'No'+'</h2>'
     +'<p>Just No!</p>'
 	+'<p>6年前隐形被No。</p>'
